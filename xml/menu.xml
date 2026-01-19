@@ -71,7 +71,7 @@
           </variants>
         </item>
 
-        <item id="I_BEER_004" name="Tyskie Gronie" status="available">
+        <item id="I_BEER_004" name="Tyskie Gronie" status="seasonal">
           <origin>
             <country>Polska</country>
           </origin>
@@ -298,7 +298,7 @@
           </variants>
         </item>
 
-        <item id="I_BEER_017" name="Komes IPA" status="available">
+        <item id="I_BEER_017" name="Komes IPA" status="usavailable">
           <origin>
             <country>Polska</country>
           </origin>
@@ -403,9 +403,7 @@
           </variants>
         </item>
 
-        <!-- C_BEER: DODAJ 8 pozycji (I_BEER_023 .. I_BEER_030) -->
-
-        <item id="I_BEER_023" name="Desperados" status="available">
+        <item id="I_BEER_023" name="Desperados" status="seasonal">
           <origin>
             <country>Francja</country>
           </origin>
@@ -776,7 +774,7 @@
             </variant>
           </variants>
         </item>
-        <!-- C_WINE: DODAJ 4 pozycje (I_WINE_012 .. I_WINE_015) -->
+
 
         <item id="I_WINE_012" name="Tempranillo" status="available">
           <origin>
@@ -818,7 +816,7 @@
           </variants>
         </item>
 
-        <item id="I_WINE_014" name="Moscato" status="available">
+        <item id="I_WINE_014" name="Moscato" status="seasonal">
           <origin>
             <country>Włochy</country>
           </origin>
@@ -838,7 +836,7 @@
           </variants>
         </item>
 
-        <item id="I_WINE_015" name="Chianti" status="available">
+        <item id="I_WINE_015" name="Chianti" status="unavailable">
           <origin>
             <country>Włochy</country>
             <region>Toskania</region>
@@ -882,7 +880,7 @@
           </variants>
         </item>
 
-        <item id="I_VODKA_002" name="Wódka Ziemniaczana" status="available">
+        <item id="I_VODKA_002" name="Wódka Ziemniaczana" status="unavailable">
           <origin>
             <country>Polska</country>
           </origin>
@@ -1058,8 +1056,6 @@
           </variants>
         </item>
 
-        <!-- C_VODKA: DODAJ 4 pozycje (I_VODKA_013 .. I_VODKA_016) -->
-
         <item id="I_VODKA_013" name="Wódka Ziemniaczana (Kremowa)" status="available">
           <origin>
             <country>Polska</country>
@@ -1143,7 +1139,7 @@
           </variants>
         </item>
 
-        <item id="I_SPIRITS_002" name="Whisky Single Malt" status="available">
+        <item id="I_SPIRITS_002" name="Whisky Single Malt" status="unavailable">
           <origin>
             <country>Szkocja</country>
           </origin>
@@ -1173,7 +1169,7 @@
           </variants>
         </item>
 
-        <item id="I_SPIRITS_004" name="Rum Spiced" status="available">
+        <item id="I_SPIRITS_004" name="Rum Spiced" status="unavailable">
           <origin>
             <country>Karaiby</country>
           </origin>
@@ -1261,7 +1257,7 @@
           </variants>
         </item>
 
-        <item id="I_SPIRITS_010" name="Rum Dark" status="available">
+        <item id="I_SPIRITS_010" name="Rum Dark" status="seasonal">
           <attributes>
             <abv>40.0</abv>
           </attributes>
@@ -1287,8 +1283,6 @@
             </variant>
           </variants>
         </item>
-
-        <!-- C_SPIRITS: DODAJ 4 pozycje (I_SPIRITS_012 .. I_SPIRITS_015) -->
 
         <item id="I_SPIRITS_012" name="Cognac VS" status="available">
           <origin>
