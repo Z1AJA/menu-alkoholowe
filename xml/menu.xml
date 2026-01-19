@@ -256,6 +256,108 @@
           </variants>
         </item>
 
+        <item id="I_WINE_002" name="Prosecco DOC" status="available">
+          <origin>
+            <country>Włochy</country>
+            <region>Veneto</region>
+          </origin>
+          <attributes>
+            <abv>11.0</abv>
+            <year>2023</year>
+          </attributes>
+          <variants>
+            <variant id="V_WINE_002A" serving="glass">
+              <size unit="ml">150</size>
+              <price>20.00</price>
+            </variant>
+            <variant id="V_WINE_002B" serving="bottle">
+              <size unit="ml">750</size>
+              <price>85.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_WINE_003" name="Pinot Grigio" status="available">
+          <origin>
+            <country>Włochy</country>
+          </origin>
+          <attributes>
+            <abv>12.0</abv>
+            <year>2022</year>
+          </attributes>
+          <variants>
+            <variant id="V_WINE_003A" serving="glass">
+              <size unit="ml">150</size>
+              <price>19.00</price>
+            </variant>
+            <variant id="V_WINE_003B" serving="bottle">
+              <size unit="ml">750</size>
+              <price>79.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_WINE_004" name="Chardonnay" status="available">
+          <origin>
+            <country>Francja</country>
+          </origin>
+          <attributes>
+            <abv>13.0</abv>
+            <year>2021</year>
+          </attributes>
+          <variants>
+            <variant id="V_WINE_004A" serving="glass">
+              <size unit="ml">150</size>
+              <price>21.00</price>
+            </variant>
+            <variant id="V_WINE_004B" serving="bottle">
+              <size unit="ml">750</size>
+              <price>92.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_WINE_005" name="Merlot" status="available">
+          <origin>
+            <country>Francja</country>
+          </origin>
+          <attributes>
+            <abv>13.5</abv>
+            <year>2020</year>
+          </attributes>
+          <variants>
+            <variant id="V_WINE_005A" serving="glass">
+              <size unit="ml">150</size>
+              <price>21.00</price>
+            </variant>
+            <variant id="V_WINE_005B" serving="bottle">
+              <size unit="ml">750</size>
+              <price>95.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_WINE_006" name="Malbec" status="available">
+          <origin>
+            <country>Argentyna</country>
+            <region>Mendoza</region>
+          </origin>
+          <attributes>
+            <abv>14.0</abv>
+            <year>2021</year>
+          </attributes>
+          <variants>
+            <variant id="V_WINE_006A" serving="glass">
+              <size unit="ml">150</size>
+              <price>23.00</price>
+            </variant>
+            <variant id="V_WINE_006B" serving="bottle">
+              <size unit="ml">750</size>
+              <price>99.00</price>
+            </variant>
+          </variants>
+        </item>
+
       </items>
     </category>
 
@@ -278,6 +380,102 @@
           </variants>
         </item>
 
+        <item id="I_VODKA_002" name="Wódka Ziemniaczana" status="available">
+          <origin>
+            <country>Polska</country>
+          </origin>
+          <attributes>
+            <abv>40.0</abv>
+            <base>ziemniaki</base>
+          </attributes>
+          <variants>
+            <variant id="V_VODKA_002A" serving="shot">
+              <size unit="ml">40</size>
+              <price>14.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_VODKA_003" name="Wódka Żytnia Premium" status="available">
+          <origin>
+            <country>Polska</country>
+          </origin>
+          <attributes>
+            <abv>40.0</abv>
+            <base>żyto</base>
+          </attributes>
+          <variants>
+            <variant id="V_VODKA_003A" serving="shot">
+              <size unit="ml">40</size>
+              <price>15.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_VODKA_004" name="Wódka Pszeniczna" status="available">
+          <origin>
+            <country>Polska</country>
+          </origin>
+          <attributes>
+            <abv>40.0</abv>
+            <base>pszenica</base>
+          </attributes>
+          <variants>
+            <variant id="V_VODKA_004A" serving="shot">
+              <size unit="ml">40</size>
+              <price>14.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_VODKA_005" name="Wódka Kukurydziana" status="available">
+          <origin>
+            <country>Polska</country>
+          </origin>
+          <attributes>
+            <abv>40.0</abv>
+            <base>kukurydza</base>
+          </attributes>
+          <variants>
+            <variant id="V_VODKA_005A" serving="shot">
+              <size unit="ml">40</size>
+              <price>14.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_VODKA_006" name="Wódka Zbożowa" status="available">
+          <origin>
+            <country>Polska</country>
+          </origin>
+          <attributes>
+            <abv>40.0</abv>
+            <base>jęczmień</base>
+          </attributes>
+          <variants>
+            <variant id="V_VODKA_006A" serving="shot">
+              <size unit="ml">40</size>
+              <price>13.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_VODKA_007" name="Wódka Pszenica Smakowa (Cytryna)" status="available">
+          <origin>
+            <country>Polska</country>
+          </origin>
+          <attributes>
+            <abv>30.0</abv>
+            <base>pszenica</base>
+          </attributes>
+          <variants>
+            <variant id="V_VODKA_007A" serving="shot">
+              <size unit="ml">40</size>
+              <price>13.00</price>
+            </variant>
+          </variants>
+        </item>
+
       </items>
     </category>
 
@@ -291,6 +489,81 @@
           <variants>
             <variant id="V_SPIRITS_001A" serving="shot">
               <size unit="ml">40</size>
+              <price>18.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_SPIRITS_002" name="Whisky Single Malt" status="available">
+          <origin>
+            <country>Szkocja</country>
+          </origin>
+          <attributes>
+            <abv>40.0</abv>
+          </attributes>
+          <variants>
+            <variant id="V_SPIRITS_002A" serving="shot">
+              <size unit="ml">40</size>
+              <price>26.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_SPIRITS_003" name="Gin London Dry" status="available">
+          <origin>
+            <country>Wielka Brytania</country>
+          </origin>
+          <attributes>
+            <abv>40.0</abv>
+          </attributes>
+          <variants>
+            <variant id="V_SPIRITS_003A" serving="shot">
+              <size unit="ml">40</size>
+              <price>22.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_SPIRITS_004" name="Rum Spiced" status="available">
+          <origin>
+            <country>Karaiby</country>
+          </origin>
+          <attributes>
+            <abv>35.0</abv>
+          </attributes>
+          <variants>
+            <variant id="V_SPIRITS_004A" serving="shot">
+              <size unit="ml">40</size>
+              <price>20.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_SPIRITS_005" name="Tequila Blanco" status="available">
+          <origin>
+            <country>Meksyk</country>
+          </origin>
+          <attributes>
+            <abv>38.0</abv>
+          </attributes>
+          <variants>
+            <variant id="V_SPIRITS_005A" serving="shot">
+              <size unit="ml">40</size>
+              <price>24.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_SPIRITS_006" name="Vermouth Rosso" status="available">
+          <origin>
+            <country>Włochy</country>
+          </origin>
+          <attributes>
+            <abv>15.0</abv>
+          </attributes>
+          <variants>
+            <variant id="V_SPIRITS_006A" serving="glass">
+              <size unit="ml">100</size>
               <price>18.00</price>
             </variant>
           </variants>
