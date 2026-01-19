@@ -927,6 +927,77 @@
           </variants>
         </item>
 
+
+        <item id="I_SPIRITS_007" name="Whisky Bourbon" status="available">
+          <origin>
+            <country>USA</country>
+          </origin>
+          <attributes>
+            <abv>40.0</abv>
+          </attributes>
+          <variants>
+            <variant id="V_SPIRITS_007A" serving="shot">
+              <size unit="ml">40</size>
+              <price>24.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_SPIRITS_008" name="Whisky Irish" status="available">
+          <origin>
+            <country>Irlandia</country>
+          </origin>
+          <attributes>
+            <abv>40.0</abv>
+          </attributes>
+          <variants>
+            <variant id="V_SPIRITS_008A" serving="shot">
+              <size unit="ml">40</size>
+              <price>23.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_SPIRITS_009" name="Gin Citrus" status="available">
+          <attributes>
+            <abv>37.5</abv>
+          </attributes>
+          <variants>
+            <variant id="V_SPIRITS_009A" serving="shot">
+              <size unit="ml">40</size>
+              <price>21.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_SPIRITS_010" name="Rum Dark" status="available">
+          <attributes>
+            <abv>40.0</abv>
+          </attributes>
+          <variants>
+            <variant id="V_SPIRITS_010A" serving="shot">
+              <size unit="ml">40</size>
+              <price>22.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_SPIRITS_011" name="Aperitivo Bitter" status="available">
+          <origin>
+            <country>Włochy</country>
+          </origin>
+          <attributes>
+            <abv>25.0</abv>
+          </attributes>
+          <variants>
+            <variant id="V_SPIRITS_011A" serving="glass">
+              <size unit="ml">60</size>
+              <price>18.00</price>
+            </variant>
+          </variants>
+        </item>
+
+
       </items>
     </category>
 
