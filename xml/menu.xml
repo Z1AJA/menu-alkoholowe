@@ -229,6 +229,180 @@
           </variants>
         </item>
 
+        <item id="I_BEER_013" name="Książęce Złote Pszeniczne" status="available">
+          <origin>
+            <country>Polska</country>
+          </origin>
+          <attributes>
+            <abv>4.9</abv>
+            <style>Weissbier</style>
+            <color>jasne</color>
+          </attributes>
+          <variants>
+            <variant id="V_BEER_013A" serving="bottle">
+              <size unit="ml">500</size>
+              <price>13.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_BEER_014" name="Książęce IPA" status="available">
+          <origin>
+            <country>Polska</country>
+          </origin>
+          <attributes>
+            <abv>5.5</abv>
+            <ibu>45</ibu>
+            <style>IPA</style>
+            <color>jasne</color>
+          </attributes>
+          <variants>
+            <variant id="V_BEER_014A" serving="bottle">
+              <size unit="ml">500</size>
+              <price>14.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_BEER_015" name="Perła Chmielowa" status="available">
+          <origin>
+            <country>Polska</country>
+          </origin>
+          <attributes>
+            <abv>6.0</abv>
+            <style>Lager</style>
+            <color>jasne</color>
+          </attributes>
+          <variants>
+            <variant id="V_BEER_015A" serving="bottle">
+              <size unit="ml">500</size>
+              <price>11.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_BEER_016" name="Komes Porter Bałtycki" status="available">
+          <origin>
+            <country>Polska</country>
+          </origin>
+          <attributes>
+            <abv>9.0</abv>
+            <style>Porter</style>
+            <color>ciemne</color>
+          </attributes>
+          <variants>
+            <variant id="V_BEER_016A" serving="bottle">
+              <size unit="ml">500</size>
+              <price>19.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_BEER_017" name="Komes IPA" status="available">
+          <origin>
+            <country>Polska</country>
+          </origin>
+          <attributes>
+            <abv>6.5</abv>
+            <ibu>55</ibu>
+            <style>IPA</style>
+            <color>jasne</color>
+          </attributes>
+          <variants>
+            <variant id="V_BEER_017A" serving="bottle">
+              <size unit="ml">500</size>
+              <price>18.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_BEER_018" name="Pinta Atak Chmielu" status="available">
+          <origin>
+            <country>Polska</country>
+          </origin>
+          <attributes>
+            <abv>6.1</abv>
+            <ibu>58</ibu>
+            <style>IPA</style>
+            <color>jasne</color>
+          </attributes>
+          <variants>
+            <variant id="V_BEER_018A" serving="bottle">
+              <size unit="ml">500</size>
+              <price>20.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_BEER_019" name="Pinta Hazy Discovery" status="available">
+          <origin>
+            <country>Polska</country>
+          </origin>
+          <attributes>
+            <abv>6.5</abv>
+            <ibu>35</ibu>
+            <style>Hazy IPA</style>
+            <color>jasne</color>
+          </attributes>
+          <variants>
+            <variant id="V_BEER_019A" serving="can">
+              <size unit="ml">500</size>
+              <price>22.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_BEER_020" name="Budweiser Budvar" status="available">
+          <origin>
+            <country>Czechy</country>
+          </origin>
+          <attributes>
+            <abv>5.0</abv>
+            <style>Lager</style>
+            <color>jasne</color>
+          </attributes>
+          <variants>
+            <variant id="V_BEER_020A" serving="bottle">
+              <size unit="ml">500</size>
+              <price>16.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_BEER_021" name="Staropramen" status="available">
+          <origin>
+            <country>Czechy</country>
+          </origin>
+          <attributes>
+            <abv>5.0</abv>
+            <style>Lager</style>
+            <color>jasne</color>
+          </attributes>
+          <variants>
+            <variant id="V_BEER_021A" serving="bottle">
+              <size unit="ml">500</size>
+              <price>15.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_BEER_022" name="Hoegaarden Witbier" status="available">
+          <origin>
+            <country>Belgia</country>
+          </origin>
+          <attributes>
+            <abv>4.9</abv>
+            <style>Witbier</style>
+            <color>jasne</color>
+          </attributes>
+          <variants>
+            <variant id="V_BEER_022A" serving="bottle">
+              <size unit="ml">330</size>
+              <price>16.00</price>
+            </variant>
+          </variants>
+        </item>
+
 
       </items>
     </category>
