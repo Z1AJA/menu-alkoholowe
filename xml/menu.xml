@@ -753,6 +753,87 @@
           </variants>
         </item>
 
+        <item id="I_VODKA_008" name="Wódka Żytnia (Chrzan)" status="available">
+          <origin>
+            <country>Polska</country>
+          </origin>
+          <attributes>
+            <abv>38.0</abv>
+            <base>żyto</base>
+          </attributes>
+          <variants>
+            <variant id="V_VODKA_008A" serving="shot">
+              <size unit="ml">40</size>
+              <price>13.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_VODKA_009" name="Wódka Pszeniczna (Wanilia)" status="available">
+          <origin>
+            <country>Polska</country>
+          </origin>
+          <attributes>
+            <abv>30.0</abv>
+            <base>pszenica</base>
+          </attributes>
+          <variants>
+            <variant id="V_VODKA_009A" serving="shot">
+              <size unit="ml">40</size>
+              <price>13.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_VODKA_010" name="Wódka Ziemniaczana Premium" status="available">
+          <origin>
+            <country>Polska</country>
+          </origin>
+          <attributes>
+            <abv>40.0</abv>
+            <base>ziemniaki</base>
+          </attributes>
+          <variants>
+            <variant id="V_VODKA_010A" serving="shot">
+              <size unit="ml">40</size>
+              <price>16.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_VODKA_011" name="Wódka Kukurydziana (Miód)" status="available">
+          <origin>
+            <country>Polska</country>
+          </origin>
+          <attributes>
+            <abv>32.0</abv>
+            <base>kukurydza</base>
+          </attributes>
+          <variants>
+            <variant id="V_VODKA_011A" serving="shot">
+              <size unit="ml">40</size>
+              <price>13.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_VODKA_012" name="Wódka Zbożowa (Pieprz)" status="available">
+          <origin>
+            <country>Polska</country>
+          </origin>
+          <attributes>
+            <abv>38.0</abv>
+            <base>jęczmień</base>
+          </attributes>
+          <variants>
+            <variant id="V_VODKA_012A" serving="shot">
+              <size unit="ml">40</size>
+              <price>13.00</price>
+            </variant>
+          </variants>
+        </item>
+
+
       </items>
     </category>
 
