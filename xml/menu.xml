@@ -532,6 +532,109 @@
           </variants>
         </item>
 
+        <item id="I_WINE_007" name="Riesling" status="available">
+          <origin>
+            <country>Niemcy</country>
+          </origin>
+          <attributes>
+            <abv>12.0</abv>
+            <year>2022</year>
+          </attributes>
+          <variants>
+            <variant id="V_WINE_007A" serving="glass">
+              <size unit="ml">150</size>
+              <price>21.00</price>
+            </variant>
+            <variant id="V_WINE_007B" serving="bottle">
+              <size unit="ml">750</size>
+              <price>89.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_WINE_008" name="Cabernet Sauvignon" status="available">
+          <origin>
+            <country>Chile</country>
+          </origin>
+          <attributes>
+            <abv>13.5</abv>
+            <year>2021</year>
+          </attributes>
+          <variants>
+            <variant id="V_WINE_008A" serving="glass">
+              <size unit="ml">150</size>
+              <price>22.00</price>
+            </variant>
+            <variant id="V_WINE_008B" serving="bottle">
+              <size unit="ml">750</size>
+              <price>95.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_WINE_009" name="Primitivo" status="available">
+          <origin>
+            <country>Włochy</country>
+            <region>Puglia</region>
+          </origin>
+          <attributes>
+            <abv>14.0</abv>
+            <year>2020</year>
+          </attributes>
+          <variants>
+            <variant id="V_WINE_009A" serving="glass">
+              <size unit="ml">150</size>
+              <price>23.00</price>
+            </variant>
+            <variant id="V_WINE_009B" serving="bottle">
+              <size unit="ml">750</size>
+              <price>99.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_WINE_010" name="Cava Brut" status="available">
+          <origin>
+            <country>Hiszpania</country>
+          </origin>
+          <attributes>
+            <abv>11.5</abv>
+            <year>2023</year>
+          </attributes>
+          <variants>
+            <variant id="V_WINE_010A" serving="glass">
+              <size unit="ml">150</size>
+              <price>20.00</price>
+            </variant>
+            <variant id="V_WINE_010B" serving="bottle">
+              <size unit="ml">750</size>
+              <price>82.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_WINE_011" name="Rosé Provence" status="available">
+          <origin>
+            <country>Francja</country>
+            <region>Prowansja</region>
+          </origin>
+          <attributes>
+            <abv>12.5</abv>
+            <year>2023</year>
+          </attributes>
+          <variants>
+            <variant id="V_WINE_011A" serving="glass">
+              <size unit="ml">150</size>
+              <price>22.00</price>
+            </variant>
+            <variant id="V_WINE_011B" serving="bottle">
+              <size unit="ml">750</size>
+              <price>94.00</price>
+            </variant>
+          </variants>
+        </item>
+
+
       </items>
     </category>
 
