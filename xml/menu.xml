@@ -298,7 +298,7 @@
           </variants>
         </item>
 
-        <item id="I_BEER_017" name="Komes IPA" status="usavailable">
+        <item id="I_BEER_017" name="Komes IPA" status="unavailable">
           <origin>
             <country>Polska</country>
           </origin>
