@@ -403,6 +403,149 @@
           </variants>
         </item>
 
+        <!-- C_BEER: DODAJ 8 pozycji (I_BEER_023 .. I_BEER_030) -->
+
+        <item id="I_BEER_023" name="Desperados" status="available">
+          <origin>
+            <country>Francja</country>
+          </origin>
+          <attributes>
+            <abv>5.9</abv>
+            <style>Flavoured Lager</style>
+            <color>jasne</color>
+          </attributes>
+          <variants>
+            <variant id="V_BEER_023A" serving="bottle">
+              <size unit="ml">400</size>
+              <price>17.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_BEER_024" name="Kasztelan Niepasteryzowane" status="available">
+          <origin>
+            <country>Polska</country>
+          </origin>
+          <attributes>
+            <abv>5.7</abv>
+            <style>Lager</style>
+            <color>jasne</color>
+          </attributes>
+          <variants>
+            <variant id="V_BEER_024A" serving="bottle">
+              <size unit="ml">500</size>
+              <price>11.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_BEER_025" name="Okocim O.K. Beer" status="available">
+          <origin>
+            <country>Polska</country>
+          </origin>
+          <attributes>
+            <abv>5.6</abv>
+            <style>Lager</style>
+            <color>jasne</color>
+          </attributes>
+          <variants>
+            <variant id="V_BEER_025A" serving="bottle">
+              <size unit="ml">500</size>
+              <price>10.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_BEER_026" name="Somersby Apple Cider" status="available">
+          <origin>
+            <country>Dania</country>
+          </origin>
+          <attributes>
+            <abv>4.5</abv>
+            <style>Cydr</style>
+            <color>jasne</color>
+          </attributes>
+          <variants>
+            <variant id="V_BEER_026A" serving="bottle">
+              <size unit="ml">400</size>
+              <price>16.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_BEER_027" name="Browar Amber Koźlak" status="available">
+          <origin>
+            <country>Polska</country>
+          </origin>
+          <attributes>
+            <abv>6.5</abv>
+            <style>Bock</style>
+            <color>ciemne</color>
+          </attributes>
+          <variants>
+            <variant id="V_BEER_027A" serving="bottle">
+              <size unit="ml">500</size>
+              <price>17.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_BEER_028" name="Belgian Blonde Ale" status="available">
+          <origin>
+            <country>Belgia</country>
+          </origin>
+          <attributes>
+            <abv>6.0</abv>
+            <style>Blonde Ale</style>
+            <color>jasne</color>
+          </attributes>
+          <variants>
+            <variant id="V_BEER_028A" serving="draft">
+              <size unit="ml">500</size>
+              <price>24.00</price>
+            </variant>
+            <variant id="V_BEER_028B" serving="draft">
+              <size unit="ml">300</size>
+              <price>16.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_BEER_029" name="Hazy Pale Ale" status="available">
+          <origin>
+            <country>Polska</country>
+          </origin>
+          <attributes>
+            <abv>5.2</abv>
+            <ibu>25</ibu>
+            <style>Pale Ale</style>
+            <color>jasne</color>
+          </attributes>
+          <variants>
+            <variant id="V_BEER_029A" serving="can">
+              <size unit="ml">500</size>
+              <price>21.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_BEER_030" name="Sour Raspberry" status="available">
+          <origin>
+            <country>Polska</country>
+          </origin>
+          <attributes>
+            <abv>4.5</abv>
+            <style>Sour</style>
+            <color>jasne</color>
+          </attributes>
+          <variants>
+            <variant id="V_BEER_030A" serving="can">
+              <size unit="ml">500</size>
+              <price>23.00</price>
+            </variant>
+          </variants>
+        </item>
+
 
       </items>
     </category>
@@ -633,6 +776,88 @@
             </variant>
           </variants>
         </item>
+        <!-- C_WINE: DODAJ 4 pozycje (I_WINE_012 .. I_WINE_015) -->
+
+        <item id="I_WINE_012" name="Tempranillo" status="available">
+          <origin>
+            <country>Hiszpania</country>
+          </origin>
+          <attributes>
+            <abv>13.5</abv>
+            <year>2021</year>
+          </attributes>
+          <variants>
+            <variant id="V_WINE_012A" serving="glass">
+              <size unit="ml">150</size>
+              <price>22.00</price>
+            </variant>
+            <variant id="V_WINE_012B" serving="bottle">
+              <size unit="ml">750</size>
+              <price>92.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_WINE_013" name="Syrah" status="available">
+          <origin>
+            <country>RPA</country>
+          </origin>
+          <attributes>
+            <abv>14.0</abv>
+            <year>2020</year>
+          </attributes>
+          <variants>
+            <variant id="V_WINE_013A" serving="glass">
+              <size unit="ml">150</size>
+              <price>23.00</price>
+            </variant>
+            <variant id="V_WINE_013B" serving="bottle">
+              <size unit="ml">750</size>
+              <price>99.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_WINE_014" name="Moscato" status="available">
+          <origin>
+            <country>Włochy</country>
+          </origin>
+          <attributes>
+            <abv>6.5</abv>
+            <year>2023</year>
+          </attributes>
+          <variants>
+            <variant id="V_WINE_014A" serving="glass">
+              <size unit="ml">150</size>
+              <price>20.00</price>
+            </variant>
+            <variant id="V_WINE_014B" serving="bottle">
+              <size unit="ml">750</size>
+              <price>85.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_WINE_015" name="Chianti" status="available">
+          <origin>
+            <country>Włochy</country>
+            <region>Toskania</region>
+          </origin>
+          <attributes>
+            <abv>13.0</abv>
+            <year>2021</year>
+          </attributes>
+          <variants>
+            <variant id="V_WINE_015A" serving="glass">
+              <size unit="ml">150</size>
+              <price>23.00</price>
+            </variant>
+            <variant id="V_WINE_015B" serving="bottle">
+              <size unit="ml">750</size>
+              <price>98.00</price>
+            </variant>
+          </variants>
+        </item>
 
 
       </items>
@@ -833,6 +1058,72 @@
           </variants>
         </item>
 
+        <!-- C_VODKA: DODAJ 4 pozycje (I_VODKA_013 .. I_VODKA_016) -->
+
+        <item id="I_VODKA_013" name="Wódka Ziemniaczana (Kremowa)" status="available">
+          <origin>
+            <country>Polska</country>
+          </origin>
+          <attributes>
+            <abv>40.0</abv>
+            <base>ziemniaki</base>
+          </attributes>
+          <variants>
+            <variant id="V_VODKA_013A" serving="shot">
+              <size unit="ml">40</size>
+              <price>15.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_VODKA_014" name="Wódka Żytnia (Klasyk)" status="available">
+          <origin>
+            <country>Polska</country>
+          </origin>
+          <attributes>
+            <abv>40.0</abv>
+            <base>żyto</base>
+          </attributes>
+          <variants>
+            <variant id="V_VODKA_014A" serving="shot">
+              <size unit="ml">40</size>
+              <price>14.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_VODKA_015" name="Wódka Pszeniczna (Premium)" status="available">
+          <origin>
+            <country>Polska</country>
+          </origin>
+          <attributes>
+            <abv>40.0</abv>
+            <base>pszenica</base>
+          </attributes>
+          <variants>
+            <variant id="V_VODKA_015A" serving="shot">
+              <size unit="ml">40</size>
+              <price>15.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_VODKA_016" name="Wódka Kukurydziana (Gładka)" status="available">
+          <origin>
+            <country>Polska</country>
+          </origin>
+          <attributes>
+            <abv>40.0</abv>
+            <base>kukurydza</base>
+          </attributes>
+          <variants>
+            <variant id="V_VODKA_016A" serving="shot">
+              <size unit="ml">40</size>
+              <price>14.00</price>
+            </variant>
+          </variants>
+        </item>
+
 
       </items>
     </category>
@@ -992,6 +1283,68 @@
           <variants>
             <variant id="V_SPIRITS_011A" serving="glass">
               <size unit="ml">60</size>
+              <price>18.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <!-- C_SPIRITS: DODAJ 4 pozycje (I_SPIRITS_012 .. I_SPIRITS_015) -->
+
+        <item id="I_SPIRITS_012" name="Cognac VS" status="available">
+          <origin>
+            <country>Francja</country>
+          </origin>
+          <attributes>
+            <abv>40.0</abv>
+          </attributes>
+          <variants>
+            <variant id="V_SPIRITS_012A" serving="shot">
+              <size unit="ml">40</size>
+              <price>28.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_SPIRITS_013" name="Brandy" status="available">
+          <origin>
+            <country>Hiszpania</country>
+          </origin>
+          <attributes>
+            <abv>36.0</abv>
+          </attributes>
+          <variants>
+            <variant id="V_SPIRITS_013A" serving="shot">
+              <size unit="ml">40</size>
+              <price>22.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_SPIRITS_014" name="Limoncello" status="available">
+          <origin>
+            <country>Włochy</country>
+          </origin>
+          <attributes>
+            <abv>30.0</abv>
+          </attributes>
+          <variants>
+            <variant id="V_SPIRITS_014A" serving="shot">
+              <size unit="ml">40</size>
+              <price>18.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_SPIRITS_015" name="Amaretto" status="available">
+          <origin>
+            <country>Włochy</country>
+          </origin>
+          <attributes>
+            <abv>28.0</abv>
+          </attributes>
+          <variants>
+            <variant id="V_SPIRITS_015A" serving="shot">
+              <size unit="ml">40</size>
               <price>18.00</price>
             </variant>
           </variants>
