@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu id="BAR_MENU_2026" updated="2026-01-19" currency="PLN">
+  <categories>
+
+    <category id="C_BEER" name="Piwo" order="1">
+      <items>
+
+        <item id="I_BEER_001" name="Pilsner Urquell" status="available">
+          <origin>
+            <country>Czechy</country>
+          </origin>
+          <producer>
+            <name>Pilsner Urquell Brewery</name>
+          </producer>
+          <attributes>
+            <abv>4.4</abv>
+            <ibu>40</ibu>
+            <style>Pilsner</style>
+            <color>jasne</color>
+          </attributes>
+          <notes>Chmielowe, wytrawne, klasyczne.</notes>
+          <variants>
+            <variant id="V_BEER_001A" serving="draft">
+              <size unit="ml">500</size>
+              <price>18.00</price>
+            </variant>
+            <variant id="V_BEER_001B" serving="draft">
+              <size unit="ml">300</size>
+              <price>12.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_BEER_002" name="IPA House" status="available">
+          <origin>
+            <country>Polska</country>
+          </origin>
+          <attributes>
+            <abv>6.2</abv>
+            <ibu>55</ibu>
+            <style>IPA</style>
+            <color>jasne</color>
+          </attributes>
+          <variants>
+            <variant id="V_BEER_002A" serving="draft">
+              <size unit="ml">500</size>
+              <price>22.00</price>
+            </variant>
+            <variant id="V_BEER_002B" serving="draft">
+              <size unit="ml">300</size>
+              <price>15.00</price>
+            </variant>
+          </variants>
+        </item>
+
+      </items>
+    </category>
+
+    <category id="C_WINE" name="Wino" order="2">
+      <items>
+
+        <item id="I_WINE_001" name="Sauvignon Blanc" status="available">
+          <origin>
+            <country>Nowa Zelandia</country>
+          </origin>
+          <attributes>
+            <abv>12.5</abv>
+            <year>2022</year>
+          </attributes>
+          <variants>
+            <variant id="V_WINE_001A" serving="glass">
+              <size unit="ml">150</size>
+              <price>22.00</price>
+            </variant>
+            <variant id="V_WINE_001B" serving="bottle">
+              <size unit="ml">750</size>
+              <price>95.00</price>
+            </variant>
+          </variants>
+        </item>
+
+      </items>
+    </category>
+
+    <category id="C_VODKA" name="Wódka" order="3">
+      <items>
+
+        <item id="I_VODKA_001" name="Żytnia Klasyczna" status="available">
+          <origin>
+            <country>Polska</country>
+          </origin>
+          <attributes>
+            <abv>40.0</abv>
+          </attributes>
+          <variants>
+            <variant id="V_VODKA_001A" serving="shot">
+              <size unit="ml">40</size>
+              <price>12.00</price>
+            </variant>
+          </variants>
+        </item>
+
+      </items>
+    </category>
+
+    <category id="C_SPIRITS" name="Inne mocne" order="4">
+      <items>
+
+        <item id="I_SPIRITS_001" name="Whisky Blended" status="available">
+          <attributes>
+            <abv>40.0</abv>
+          </attributes>
+          <variants>
+            <variant id="V_SPIRITS_001A" serving="shot">
+              <size unit="ml">40</size>
+              <price>18.00</price>
+            </variant>
+          </variants>
+        </item>
+
+      </items>
+    </category>
+
+  </categories>
+</menu>
