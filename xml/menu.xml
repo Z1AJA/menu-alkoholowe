@@ -53,6 +53,183 @@
           </variants>
         </item>
 
+        
+        <item id="I_BEER_003" name="Żywiec Jasne" status="available">
+          <origin>
+            <country>Polska</country>
+          </origin>
+          <attributes>
+            <abv>5.6</abv>
+            <style>Lager</style>
+            <color>jasne</color>
+          </attributes>
+          <variants>
+            <variant id="V_BEER_003A" serving="bottle">
+              <size unit="ml">500</size>
+              <price>10.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_BEER_004" name="Tyskie Gronie" status="available">
+          <origin>
+            <country>Polska</country>
+          </origin>
+          <attributes>
+            <abv>5.0</abv>
+            <style>Lager</style>
+            <color>jasne</color>
+          </attributes>
+          <variants>
+            <variant id="V_BEER_004A" serving="bottle">
+              <size unit="ml">500</size>
+              <price>10.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_BEER_005" name="Lech Premium" status="available">
+          <origin>
+            <country>Polska</country>
+          </origin>
+          <attributes>
+            <abv>5.0</abv>
+            <style>Lager</style>
+            <color>jasne</color>
+          </attributes>
+          <variants>
+            <variant id="V_BEER_005A" serving="bottle">
+              <size unit="ml">500</size>
+              <price>10.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_BEER_006" name="Heineken" status="available">
+          <origin>
+            <country>Holandia</country>
+          </origin>
+          <attributes>
+            <abv>5.0</abv>
+            <style>Lager</style>
+            <color>jasne</color>
+          </attributes>
+          <variants>
+            <variant id="V_BEER_006A" serving="bottle">
+              <size unit="ml">500</size>
+              <price>14.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_BEER_007" name="Corona Extra" status="available">
+          <origin>
+            <country>Meksyk</country>
+          </origin>
+          <attributes>
+            <abv>4.5</abv>
+            <style>Lager</style>
+            <color>jasne</color>
+          </attributes>
+          <variants>
+            <variant id="V_BEER_007A" serving="bottle">
+              <size unit="ml">355</size>
+              <price>16.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_BEER_008" name="Guinness Draught" status="available">
+          <origin>
+            <country>Irlandia</country>
+          </origin>
+          <attributes>
+            <abv>4.2</abv>
+            <style>Stout</style>
+            <color>ciemne</color>
+          </attributes>
+          <variants>
+            <variant id="V_BEER_008A" serving="can">
+              <size unit="ml">440</size>
+              <price>18.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_BEER_009" name="Kozel Cerny" status="available">
+          <origin>
+            <country>Czechy</country>
+          </origin>
+          <attributes>
+            <abv>3.8</abv>
+            <style>Dark Lager</style>
+            <color>ciemne</color>
+          </attributes>
+          <variants>
+            <variant id="V_BEER_009A" serving="bottle">
+              <size unit="ml">500</size>
+              <price>14.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_BEER_010" name="Paulaner Hefe-Weissbier" status="available">
+          <origin>
+            <country>Niemcy</country>
+          </origin>
+          <attributes>
+            <abv>5.5</abv>
+            <style>Weissbier</style>
+            <color>jasne</color>
+          </attributes>
+          <variants>
+            <variant id="V_BEER_010A" serving="bottle">
+              <size unit="ml">500</size>
+              <price>18.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_BEER_011" name="Erdinger Weissbier" status="available">
+          <origin>
+            <country>Niemcy</country>
+          </origin>
+          <attributes>
+            <abv>5.3</abv>
+            <style>Weissbier</style>
+            <color>jasne</color>
+          </attributes>
+          <variants>
+            <variant id="V_BEER_011A" serving="bottle">
+              <size unit="ml">500</size>
+              <price>18.00</price>
+            </variant>
+          </variants>
+        </item>
+
+        <item id="I_BEER_012" name="West Coast IPA" status="available">
+          <origin>
+            <country>USA</country>
+          </origin>
+          <attributes>
+            <abv>6.8</abv>
+            <ibu>60</ibu>
+            <style>IPA</style>
+            <color>jasne</color>
+          </attributes>
+          <variants>
+            <variant id="V_BEER_012A" serving="draft">
+              <size unit="ml">500</size>
+              <price>24.00</price>
+            </variant>
+            <variant id="V_BEER_012B" serving="draft">
+              <size unit="ml">300</size>
+              <price>16.00</price>
+            </variant>
+          </variants>
+        </item>
+
+
       </items>
     </category>
 
@@ -91,6 +268,7 @@
           </origin>
           <attributes>
             <abv>40.0</abv>
+            <base>żyto</base>
           </attributes>
           <variants>
             <variant id="V_VODKA_001A" serving="shot">
