@@ -1,6 +1,70 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
 
+  <xs:simpleType name="StatusType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="available"/>
+      <xs:enumeration value="unavailable"/>
+      <xs:enumeration value="seasonal"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="ServingType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="bottle"/>
+      <xs:enumeration value="draft"/>
+      <xs:enumeration value="can"/>
+      <xs:enumeration value="glass"/>
+      <xs:enumeration value="shot"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="ColorType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="jasne"/>
+      <xs:enumeration value="ciemne"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="MenuIdType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="BAR_MENU_[0-9]{4}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="ItemIdType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="I_[A-Z]+_[0-9]{3}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="VariantIdType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="V_[A-Z]+_[0-9]{3}[A-Z]"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="PriceType">
+    <xs:restriction base="xs:decimal">
+      <xs:minExclusive value="0"/>
+      <xs:fractionDigits value="2"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="AbvType">
+    <xs:restriction base="xs:decimal">
+      <xs:minInclusive value="0"/>
+      <xs:maxInclusive value="100"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="YearType">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="1900"/>
+      <xs:maxInclusive value="2100"/>
+    </xs:restriction>
+  </xs:simpleType>
+
   <xs:element name="menu">
     <xs:complexType>
       <xs:sequence>
@@ -16,10 +80,22 @@
                           <xs:element name="item" maxOccurs="unbounded">
                             <xs:complexType>
                               <xs:sequence>
+                                
                                 <xs:element name="origin" minOccurs="0">
                                   <xs:complexType>
                                     <xs:sequence>
-                                      <xs:element name="country" type="xs:string" minOccurs="0"/>
+                                      <xs:element name="country" minOccurs="0">
+                                        <xs:simpleType>
+                                          <xs:restriction base="xs:string">
+                                            <xs:enumeration value="Polska"/><xs:enumeration value="Czechy"/><xs:enumeration value="Niemcy"/>
+                                            <xs:enumeration value="Belgia"/><xs:enumeration value="Holandia"/><xs:enumeration value="Meksyk"/>
+                                            <xs:enumeration value="Irlandia"/><xs:enumeration value="USA"/><xs:enumeration value="Wielka Brytania"/>
+                                            <xs:enumeration value="Francja"/><xs:enumeration value="Dania"/><xs:enumeration value="Nowa Zelandia"/>
+                                            <xs:enumeration value="Włochy"/><xs:enumeration value="Argentyna"/><xs:enumeration value="Chile"/>
+                                            <xs:enumeration value="Hiszpania"/><xs:enumeration value="RPA"/><xs:enumeration value="Szkocja"/><xs:enumeration value="Karaiby"/>
+                                          </xs:restriction>
+                                        </xs:simpleType>
+                                      </xs:element>
                                       <xs:element name="region" type="xs:string" minOccurs="0"/>
                                     </xs:sequence>
                                   </xs:complexType>
@@ -36,12 +112,25 @@
                                 <xs:element name="attributes" minOccurs="0">
                                   <xs:complexType>
                                     <xs:sequence>
-                                      <xs:element name="abv" type="xs:decimal" minOccurs="0"/>
+                                      <xs:element name="abv" type="AbvType" minOccurs="0"/>
                                       <xs:element name="base" type="xs:string" minOccurs="0"/>
-                                      <xs:element name="year" type="xs:integer" minOccurs="0"/>
-                                      <xs:element name="ibu" type="xs:integer" minOccurs="0"/>
-                                      <xs:element name="style" type="xs:string" minOccurs="0"/>
-                                      <xs:element name="color" type="xs:string" minOccurs="0"/>
+                                      <xs:element name="year" type="YearType" minOccurs="0"/>
+                                      <xs:element name="ibu" type="xs:nonNegativeInteger" minOccurs="0"/>
+                                      
+                                      <xs:element name="style" minOccurs="0">
+                                         <xs:simpleType>
+                                          <xs:restriction base="xs:string">
+                                            <xs:enumeration value="Pilsner"/><xs:enumeration value="IPA"/><xs:enumeration value="Lager"/>
+                                            <xs:enumeration value="Stout"/><xs:enumeration value="Dark Lager"/><xs:enumeration value="Weissbier"/>
+                                            <xs:enumeration value="Porter"/><xs:enumeration value="Hazy IPA"/><xs:enumeration value="Witbier"/>
+                                            <xs:enumeration value="Flavoured Lager"/><xs:enumeration value="Cydr"/><xs:enumeration value="Bock"/>
+                                            <xs:enumeration value="Blonde Ale"/><xs:enumeration value="Pale Ale"/><xs:enumeration value="Sour"/>
+                                            <xs:enumeration value="Cava"/><xs:enumeration value="Prosecco"/><xs:enumeration value="Champagne"/>
+                                          </xs:restriction>
+                                        </xs:simpleType>
+                                      </xs:element>
+                                      
+                                      <xs:element name="color" type="ColorType" minOccurs="0"/>
                                     </xs:sequence>
                                   </xs:complexType>
                                 </xs:element>
@@ -58,15 +147,21 @@
                                               <xs:complexType>
                                                 <xs:simpleContent>
                                                   <xs:extension base="xs:integer">
-                                                    <xs:attribute name="unit" type="xs:string" use="required"/>
+                                                    <xs:attribute name="unit" use="required">
+                                                      <xs:simpleType>
+                                                        <xs:restriction base="xs:string">
+                                                          <xs:enumeration value="ml"/>
+                                                        </xs:restriction>
+                                                      </xs:simpleType>
+                                                    </xs:attribute>
                                                   </xs:extension>
                                                 </xs:simpleContent>
                                               </xs:complexType>
                                             </xs:element>
-                                            <xs:element name="price" type="xs:decimal"/>
+                                            <xs:element name="price" type="PriceType"/>
                                           </xs:sequence>
-                                          <xs:attribute name="id" type="xs:string" use="required"/>
-                                          <xs:attribute name="serving" type="xs:string" use="optional"/>
+                                          <xs:attribute name="id" type="VariantIdType" use="required"/>
+                                          <xs:attribute name="serving" type="ServingType" use="optional"/>
                                         </xs:complexType>
                                       </xs:element>
                                     </xs:sequence>
@@ -74,9 +169,9 @@
                                 </xs:element>
 
                               </xs:sequence>
-                              <xs:attribute name="id" type="xs:string" use="required"/>
+                              <xs:attribute name="id" type="ItemIdType" use="required"/>
                               <xs:attribute name="name" type="xs:string" use="required"/>
-                              <xs:attribute name="status" type="xs:string" use="optional"/>
+                              <xs:attribute name="status" type="StatusType" use="optional"/>
                             </xs:complexType>
                           </xs:element>
                         </xs:sequence>
@@ -92,9 +187,9 @@
           </xs:complexType>
         </xs:element>
       </xs:sequence>
-      <xs:attribute name="id" type="xs:string"/>
-      <xs:attribute name="updated" type="xs:date"/>
-      <xs:attribute name="currency" type="xs:string"/>
+      <xs:attribute name="id" type="MenuIdType" use="required"/>
+      <xs:attribute name="updated" type="xs:date" use="required"/>
+      <xs:attribute name="currency" type="xs:string" fixed="PLN"/>
     </xs:complexType>
   </xs:element>
 </xs:schema>
