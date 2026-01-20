@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<menu id="BAR_MENU_2026" updated="2026-01-19" currency="PLN">
+<menu
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xsi:noNamespaceSchemaLocation="../schema/menu.xsd"
+  id="BAR_MENU_2026" updated="2026-01-19" currency="PLN">
   <categories>
 
     <category id="C_BEER" name="Piwo" order="1">
