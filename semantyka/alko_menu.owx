@@ -1,0 +1,2115 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org//bar_menu_20260/untitled-ontology-2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org//bar_menu_20260/untitled-ontology-2">
+    <Prefix name="" IRI="http://www.semanticweb.org//bar_menu_20260/untitled-ontology-2/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Baza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blonde_Ale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brandy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cydr"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dark_Lager"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flavoured_Lager"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IPA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inne"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Koniak"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kraj_Pochodzenia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lager"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Likier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MocneAlkohole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pale_Ale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pilsner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Piwo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Porter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Producent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Produkt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stout"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tequila"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Weissbier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wermut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Whisky"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WinoBiale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WinoCzerwone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WinoMusujace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WinoRozowe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Witbier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wodka"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WodkaJeczmienna"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WodkaKukurydziana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WodkaPszeniczna"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WodkaZiemniaczana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WodkaZytnia"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#bazujeNa"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#maProducenta"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#pochodziZ"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#produkuje"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#maCene"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#maPojemnosc"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#maProcenty"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#wyprodukowaneW"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Amaretto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Aperitivo_Bitter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Argentyna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Brandy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chardonnay_Butelka"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chardonnay_Kieliszek"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chianti_Butelka"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chianti_Kieliszek"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chile"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cognac_VS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Czechy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dania"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Erdinger_Weissbier"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Francja"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gin_Citrus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gin_London_Dry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Guinness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Heineken"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Heineken_"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hiszpania"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Holandia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Irlandia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jeczmien"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Karaiby"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ksiazece_IPA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kukurydza"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Limoncello"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Meksyk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Niemcy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nowa_Zelandia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pilsner_Urquell"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pilsner_Urquell_Brewery"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Polska"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Prosecco_DOC_Butelka"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Prosecco_DOC_Kieliszek"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pszenica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RPA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rose_Provence_Butelka"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rose_Provence_Kieliszek"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rum_Dark"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rum_Spiced"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Syrah_Butelka"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Syrah_Kieliszek"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Szkocja"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tequila_Blanco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#USA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vermouth_Rosso"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Whisky_Blended"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Whisky_Bourbon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Whisky_Irish"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Whisky_Single_Malt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wielka_Brytania"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wodka_Kukurydziana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wodka_Pszeniczna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wodka_Zbozowa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wodka_Ziemniaczana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wodka_Ziemniaczana_Premium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wodka_Zytnia_Premium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Włochy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ziemniak"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zytnia_Klasyczna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zyto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zywiec"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zywiec_Jasne"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wodka_Kukurydziana_(Miod)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wodka_Kukurydzianka_(Gladka)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wodka_Pszenca_Smakowa_(Cytryna)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wodka_Pszeniczna_(Premium)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wodka_Pszeniczna_(Wanilia)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wodka_Zbozowa_(Pieprz)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wodka_Ziemniaczana_(Kremowa)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wodka_Zytnia_(Chrzan)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wodka_Zytnia_(Klasyk)"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#MocneAlkohole"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Produkt"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#maProcenty"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:decimal"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">38.0</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#WodkaJeczmienna"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Wodka"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#bazujeNa"/>
+                <NamedIndividual IRI="#Jeczmien"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#WodkaKukurydziana"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Wodka"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#bazujeNa"/>
+                <NamedIndividual IRI="#Kukurydza"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#WodkaPszeniczna"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Wodka"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#bazujeNa"/>
+                <NamedIndividual IRI="#Pszenica"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#WodkaZiemniaczana"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Wodka"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#bazujeNa"/>
+                <NamedIndividual IRI="#Ziemniak"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#WodkaZytnia"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Wodka"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#bazujeNa"/>
+                <NamedIndividual IRI="#Zyto"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Blonde_Ale"/>
+        <Class IRI="#Piwo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bock"/>
+        <Class IRI="#Piwo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brandy"/>
+        <Class IRI="#Inne"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cydr"/>
+        <Class IRI="#Piwo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dark_Lager"/>
+        <Class IRI="#Piwo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flavoured_Lager"/>
+        <Class IRI="#Piwo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gin"/>
+        <Class IRI="#Inne"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IPA"/>
+        <Class IRI="#Piwo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inne"/>
+        <Class IRI="#Produkt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Koniak"/>
+        <Class IRI="#Inne"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lager"/>
+        <Class IRI="#Piwo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Likier"/>
+        <Class IRI="#Inne"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MocneAlkohole"/>
+        <Class IRI="#Produkt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pale"/>
+        <Class IRI="#Piwo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pale_Ale"/>
+        <Class IRI="#Piwo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pilsner"/>
+        <Class IRI="#Piwo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Piwo"/>
+        <Class IRI="#Produkt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Porter"/>
+        <Class IRI="#Piwo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Produkt"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#pochodziZ"/>
+            <Class IRI="#Kraj_Pochodzenia"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rum"/>
+        <Class IRI="#Inne"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sour"/>
+        <Class IRI="#Piwo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stout"/>
+        <Class IRI="#Piwo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tequila"/>
+        <Class IRI="#Inne"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Weissbier"/>
+        <Class IRI="#Piwo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wermut"/>
+        <Class IRI="#Inne"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Whisky"/>
+        <Class IRI="#Inne"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wino"/>
+        <Class IRI="#Produkt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WinoBiale"/>
+        <Class IRI="#Wino"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WinoCzerwone"/>
+        <Class IRI="#Wino"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WinoMusujace"/>
+        <Class IRI="#Wino"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WinoRozowe"/>
+        <Class IRI="#Wino"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Witbier"/>
+        <Class IRI="#Piwo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wodka"/>
+        <Class IRI="#Produkt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WodkaJeczmienna"/>
+        <Class IRI="#Wodka"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WodkaKukurydziana"/>
+        <Class IRI="#Wodka"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WodkaPszeniczna"/>
+        <Class IRI="#Wodka"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WodkaZiemniaczana"/>
+        <Class IRI="#Wodka"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WodkaZytnia"/>
+        <Class IRI="#Wodka"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Likier"/>
+        <NamedIndividual IRI="#Amaretto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Likier"/>
+        <NamedIndividual IRI="#Aperitivo_Bitter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kraj_Pochodzenia"/>
+        <NamedIndividual IRI="#Argentyna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Brandy"/>
+        <NamedIndividual IRI="#Brandy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WinoBiale"/>
+        <NamedIndividual IRI="#Chardonnay_Butelka"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WinoBiale"/>
+        <NamedIndividual IRI="#Chardonnay_Kieliszek"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WinoCzerwone"/>
+        <NamedIndividual IRI="#Chianti_Butelka"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WinoCzerwone"/>
+        <NamedIndividual IRI="#Chianti_Kieliszek"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kraj_Pochodzenia"/>
+        <NamedIndividual IRI="#Chile"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Koniak"/>
+        <NamedIndividual IRI="#Cognac_VS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kraj_Pochodzenia"/>
+        <NamedIndividual IRI="#Czechy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kraj_Pochodzenia"/>
+        <NamedIndividual IRI="#Dania"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Weissbier"/>
+        <NamedIndividual IRI="#Erdinger_Weissbier"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kraj_Pochodzenia"/>
+        <NamedIndividual IRI="#Francja"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gin"/>
+        <NamedIndividual IRI="#Gin_Citrus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gin"/>
+        <NamedIndividual IRI="#Gin_London_Dry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Stout"/>
+        <NamedIndividual IRI="#Guinness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Producent"/>
+        <NamedIndividual IRI="#Heineken"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lager"/>
+        <NamedIndividual IRI="#Heineken_"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kraj_Pochodzenia"/>
+        <NamedIndividual IRI="#Hiszpania"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kraj_Pochodzenia"/>
+        <NamedIndividual IRI="#Holandia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kraj_Pochodzenia"/>
+        <NamedIndividual IRI="#Irlandia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Baza"/>
+        <NamedIndividual IRI="#Jeczmien"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kraj_Pochodzenia"/>
+        <NamedIndividual IRI="#Karaiby"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IPA"/>
+        <NamedIndividual IRI="#Ksiazece_IPA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Baza"/>
+        <NamedIndividual IRI="#Kukurydza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Likier"/>
+        <NamedIndividual IRI="#Limoncello"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kraj_Pochodzenia"/>
+        <NamedIndividual IRI="#Meksyk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kraj_Pochodzenia"/>
+        <NamedIndividual IRI="#Niemcy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kraj_Pochodzenia"/>
+        <NamedIndividual IRI="#Nowa_Zelandia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pilsner"/>
+        <NamedIndividual IRI="#Pilsner_Urquell"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Producent"/>
+        <NamedIndividual IRI="#Pilsner_Urquell_Brewery"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kraj_Pochodzenia"/>
+        <NamedIndividual IRI="#Polska"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WinoMusujace"/>
+        <NamedIndividual IRI="#Prosecco_DOC_Butelka"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WinoMusujace"/>
+        <NamedIndividual IRI="#Prosecco_DOC_Kieliszek"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Baza"/>
+        <NamedIndividual IRI="#Pszenica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kraj_Pochodzenia"/>
+        <NamedIndividual IRI="#RPA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WinoRozowe"/>
+        <NamedIndividual IRI="#Rose_Provence_Butelka"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WinoRozowe"/>
+        <NamedIndividual IRI="#Rose_Provence_Kieliszek"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rum"/>
+        <NamedIndividual IRI="#Rum_Dark"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rum"/>
+        <NamedIndividual IRI="#Rum_Spiced"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WinoCzerwone"/>
+        <NamedIndividual IRI="#Syrah_Butelka"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WinoCzerwone"/>
+        <NamedIndividual IRI="#Syrah_Kieliszek"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kraj_Pochodzenia"/>
+        <NamedIndividual IRI="#Szkocja"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tequila"/>
+        <NamedIndividual IRI="#Tequila_Blanco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kraj_Pochodzenia"/>
+        <NamedIndividual IRI="#USA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wermut"/>
+        <NamedIndividual IRI="#Vermouth_Rosso"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Whisky"/>
+        <NamedIndividual IRI="#Whisky_Blended"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Whisky"/>
+        <NamedIndividual IRI="#Whisky_Bourbon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Whisky"/>
+        <NamedIndividual IRI="#Whisky_Irish"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Whisky"/>
+        <NamedIndividual IRI="#Whisky_Single_Malt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kraj_Pochodzenia"/>
+        <NamedIndividual IRI="#Wielka_Brytania"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wodka"/>
+        <NamedIndividual IRI="#Wodka_Kukurydziana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wodka"/>
+        <NamedIndividual IRI="#Wodka_Pszeniczna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wodka"/>
+        <NamedIndividual IRI="#Wodka_Zbozowa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wodka"/>
+        <NamedIndividual IRI="#Wodka_Ziemniaczana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wodka"/>
+        <NamedIndividual IRI="#Wodka_Ziemniaczana_Premium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wodka"/>
+        <NamedIndividual IRI="#Wodka_Zytnia_Premium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kraj_Pochodzenia"/>
+        <NamedIndividual IRI="#Włochy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Baza"/>
+        <NamedIndividual IRI="#Ziemniak"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wodka"/>
+        <NamedIndividual IRI="#Zytnia_Klasyczna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Baza"/>
+        <NamedIndividual IRI="#Zyto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Producent"/>
+        <NamedIndividual IRI="#Zywiec"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lager"/>
+        <NamedIndividual IRI="#Zywiec_Jasne"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wodka"/>
+        <NamedIndividual IRI="#Wodka_Kukurydziana_(Miod)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wodka"/>
+        <NamedIndividual IRI="#Wodka_Kukurydzianka_(Gladka)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wodka"/>
+        <NamedIndividual IRI="#Wodka_Pszenca_Smakowa_(Cytryna)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wodka"/>
+        <NamedIndividual IRI="#Wodka_Pszeniczna_(Premium)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wodka"/>
+        <NamedIndividual IRI="#Wodka_Pszeniczna_(Wanilia)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wodka"/>
+        <NamedIndividual IRI="#Wodka_Zbozowa_(Pieprz)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wodka"/>
+        <NamedIndividual IRI="#Wodka_Ziemniaczana_(Kremowa)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wodka"/>
+        <NamedIndividual IRI="#Wodka_Zytnia_(Chrzan)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wodka"/>
+        <NamedIndividual IRI="#Wodka_Zytnia_(Klasyk)"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Amaretto"/>
+        <NamedIndividual IRI="#Aperitivo_Bitter"/>
+        <NamedIndividual IRI="#Argentyna"/>
+        <NamedIndividual IRI="#Brandy"/>
+        <NamedIndividual IRI="#Chardonnay_Butelka"/>
+        <NamedIndividual IRI="#Chardonnay_Kieliszek"/>
+        <NamedIndividual IRI="#Chianti_Butelka"/>
+        <NamedIndividual IRI="#Chianti_Kieliszek"/>
+        <NamedIndividual IRI="#Chile"/>
+        <NamedIndividual IRI="#Cognac_VS"/>
+        <NamedIndividual IRI="#Czechy"/>
+        <NamedIndividual IRI="#Dania"/>
+        <NamedIndividual IRI="#Erdinger_Weissbier"/>
+        <NamedIndividual IRI="#Francja"/>
+        <NamedIndividual IRI="#Gin_Citrus"/>
+        <NamedIndividual IRI="#Gin_London_Dry"/>
+        <NamedIndividual IRI="#Guinness"/>
+        <NamedIndividual IRI="#Heineken"/>
+        <NamedIndividual IRI="#Heineken_"/>
+        <NamedIndividual IRI="#Hiszpania"/>
+        <NamedIndividual IRI="#Holandia"/>
+        <NamedIndividual IRI="#Irlandia"/>
+        <NamedIndividual IRI="#Jeczmien"/>
+        <NamedIndividual IRI="#Karaiby"/>
+        <NamedIndividual IRI="#Ksiazece_IPA"/>
+        <NamedIndividual IRI="#Kukurydza"/>
+        <NamedIndividual IRI="#Limoncello"/>
+        <NamedIndividual IRI="#Meksyk"/>
+        <NamedIndividual IRI="#Niemcy"/>
+        <NamedIndividual IRI="#Nowa_Zelandia"/>
+        <NamedIndividual IRI="#Pilsner_Urquell"/>
+        <NamedIndividual IRI="#Pilsner_Urquell_Brewery"/>
+        <NamedIndividual IRI="#Polska"/>
+        <NamedIndividual IRI="#Prosecco_DOC_Butelka"/>
+        <NamedIndividual IRI="#Prosecco_DOC_Kieliszek"/>
+        <NamedIndividual IRI="#Pszenica"/>
+        <NamedIndividual IRI="#RPA"/>
+        <NamedIndividual IRI="#Rose_Provence_Butelka"/>
+        <NamedIndividual IRI="#Rose_Provence_Kieliszek"/>
+        <NamedIndividual IRI="#Rum_Dark"/>
+        <NamedIndividual IRI="#Rum_Spiced"/>
+        <NamedIndividual IRI="#Syrah_Butelka"/>
+        <NamedIndividual IRI="#Syrah_Kieliszek"/>
+        <NamedIndividual IRI="#Szkocja"/>
+        <NamedIndividual IRI="#Tequila_Blanco"/>
+        <NamedIndividual IRI="#USA"/>
+        <NamedIndividual IRI="#Vermouth_Rosso"/>
+        <NamedIndividual IRI="#Whisky_Blended"/>
+        <NamedIndividual IRI="#Whisky_Bourbon"/>
+        <NamedIndividual IRI="#Whisky_Irish"/>
+        <NamedIndividual IRI="#Whisky_Single_Malt"/>
+        <NamedIndividual IRI="#Wielka_Brytania"/>
+        <NamedIndividual IRI="#Wodka_Kukurydziana"/>
+        <NamedIndividual IRI="#Wodka_Pszeniczna"/>
+        <NamedIndividual IRI="#Wodka_Zbozowa"/>
+        <NamedIndividual IRI="#Wodka_Ziemniaczana"/>
+        <NamedIndividual IRI="#Wodka_Ziemniaczana_Premium"/>
+        <NamedIndividual IRI="#Wodka_Zytnia_Premium"/>
+        <NamedIndividual IRI="#Włochy"/>
+        <NamedIndividual IRI="#Ziemniak"/>
+        <NamedIndividual IRI="#Zytnia_Klasyczna"/>
+        <NamedIndividual IRI="#Zyto"/>
+        <NamedIndividual IRI="#Zywiec"/>
+        <NamedIndividual IRI="#Zywiec_Jasne"/>
+        <NamedIndividual IRI="#Wodka_Kukurydziana_(Miod)"/>
+        <NamedIndividual IRI="#Wodka_Kukurydzianka_(Gladka)"/>
+        <NamedIndividual IRI="#Wodka_Pszenca_Smakowa_(Cytryna)"/>
+        <NamedIndividual IRI="#Wodka_Pszeniczna_(Premium)"/>
+        <NamedIndividual IRI="#Wodka_Pszeniczna_(Wanilia)"/>
+        <NamedIndividual IRI="#Wodka_Zbozowa_(Pieprz)"/>
+        <NamedIndividual IRI="#Wodka_Ziemniaczana_(Kremowa)"/>
+        <NamedIndividual IRI="#Wodka_Zytnia_(Chrzan)"/>
+        <NamedIndividual IRI="#Wodka_Zytnia_(Klasyk)"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Argentyna"/>
+        <NamedIndividual IRI="#Czechy"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Argentyna"/>
+        <NamedIndividual IRI="#Włochy"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Czechy"/>
+        <NamedIndividual IRI="#Polska"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#USA"/>
+        <NamedIndividual IRI="#Wielka_Brytania"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pochodziZ"/>
+        <NamedIndividual IRI="#Amaretto"/>
+        <NamedIndividual IRI="#Włochy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pochodziZ"/>
+        <NamedIndividual IRI="#Aperitivo_Bitter"/>
+        <NamedIndividual IRI="#Włochy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pochodziZ"/>
+        <NamedIndividual IRI="#Brandy"/>
+        <NamedIndividual IRI="#Hiszpania"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pochodziZ"/>
+        <NamedIndividual IRI="#Chardonnay_Butelka"/>
+        <NamedIndividual IRI="#Francja"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pochodziZ"/>
+        <NamedIndividual IRI="#Chardonnay_Kieliszek"/>
+        <NamedIndividual IRI="#Francja"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pochodziZ"/>
+        <NamedIndividual IRI="#Chianti_Butelka"/>
+        <NamedIndividual IRI="#Włochy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pochodziZ"/>
+        <NamedIndividual IRI="#Chianti_Kieliszek"/>
+        <NamedIndividual IRI="#Włochy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pochodziZ"/>
+        <NamedIndividual IRI="#Cognac_VS"/>
+        <NamedIndividual IRI="#Francja"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pochodziZ"/>
+        <NamedIndividual IRI="#Erdinger_Weissbier"/>
+        <NamedIndividual IRI="#Niemcy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pochodziZ"/>
+        <NamedIndividual IRI="#Gin_London_Dry"/>
+        <NamedIndividual IRI="#Wielka_Brytania"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pochodziZ"/>
+        <NamedIndividual IRI="#Guinness"/>
+        <NamedIndividual IRI="#Irlandia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#produkuje"/>
+        <NamedIndividual IRI="#Heineken"/>
+        <NamedIndividual IRI="#Heineken_"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#maProducenta"/>
+        <NamedIndividual IRI="#Heineken_"/>
+        <NamedIndividual IRI="#Heineken"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pochodziZ"/>
+        <NamedIndividual IRI="#Heineken_"/>
+        <NamedIndividual IRI="#Holandia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pochodziZ"/>
+        <NamedIndividual IRI="#Ksiazece_IPA"/>
+        <NamedIndividual IRI="#Polska"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pochodziZ"/>
+        <NamedIndividual IRI="#Limoncello"/>
+        <NamedIndividual IRI="#Włochy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#maProducenta"/>
+        <NamedIndividual IRI="#Pilsner_Urquell"/>
+        <NamedIndividual IRI="#Pilsner_Urquell_Brewery"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pochodziZ"/>
+        <NamedIndividual IRI="#Pilsner_Urquell"/>
+        <NamedIndividual IRI="#Czechy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pochodziZ"/>
+        <NamedIndividual IRI="#Prosecco_DOC_Butelka"/>
+        <NamedIndividual IRI="#Włochy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pochodziZ"/>
+        <NamedIndividual IRI="#Prosecco_DOC_Kieliszek"/>
+        <NamedIndividual IRI="#Włochy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pochodziZ"/>
+        <NamedIndividual IRI="#Rose_Provence_Butelka"/>
+        <NamedIndividual IRI="#Francja"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pochodziZ"/>
+        <NamedIndividual IRI="#Rose_Provence_Kieliszek"/>
+        <NamedIndividual IRI="#Francja"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pochodziZ"/>
+        <NamedIndividual IRI="#Rum_Spiced"/>
+        <NamedIndividual IRI="#Karaiby"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pochodziZ"/>
+        <NamedIndividual IRI="#Syrah_Butelka"/>
+        <NamedIndividual IRI="#RPA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pochodziZ"/>
+        <NamedIndividual IRI="#Syrah_Kieliszek"/>
+        <NamedIndividual IRI="#RPA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pochodziZ"/>
+        <NamedIndividual IRI="#Tequila_Blanco"/>
+        <NamedIndividual IRI="#Meksyk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pochodziZ"/>
+        <NamedIndividual IRI="#Vermouth_Rosso"/>
+        <NamedIndividual IRI="#Włochy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pochodziZ"/>
+        <NamedIndividual IRI="#Whisky_Bourbon"/>
+        <NamedIndividual IRI="#USA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pochodziZ"/>
+        <NamedIndividual IRI="#Whisky_Irish"/>
+        <NamedIndividual IRI="#Irlandia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pochodziZ"/>
+        <NamedIndividual IRI="#Whisky_Single_Malt"/>
+        <NamedIndividual IRI="#Szkocja"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bazujeNa"/>
+        <NamedIndividual IRI="#Wodka_Kukurydziana"/>
+        <NamedIndividual IRI="#Kukurydza"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pochodziZ"/>
+        <NamedIndividual IRI="#Wodka_Kukurydziana"/>
+        <NamedIndividual IRI="#Polska"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bazujeNa"/>
+        <NamedIndividual IRI="#Wodka_Pszeniczna"/>
+        <NamedIndividual IRI="#Pszenica"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pochodziZ"/>
+        <NamedIndividual IRI="#Wodka_Pszeniczna"/>
+        <NamedIndividual IRI="#Polska"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bazujeNa"/>
+        <NamedIndividual IRI="#Wodka_Zbozowa"/>
+        <NamedIndividual IRI="#Jeczmien"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pochodziZ"/>
+        <NamedIndividual IRI="#Wodka_Zbozowa"/>
+        <NamedIndividual IRI="#Polska"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bazujeNa"/>
+        <NamedIndividual IRI="#Wodka_Ziemniaczana"/>
+        <NamedIndividual IRI="#Ziemniak"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pochodziZ"/>
+        <NamedIndividual IRI="#Wodka_Ziemniaczana"/>
+        <NamedIndividual IRI="#Polska"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bazujeNa"/>
+        <NamedIndividual IRI="#Wodka_Ziemniaczana_Premium"/>
+        <NamedIndividual IRI="#Ziemniak"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pochodziZ"/>
+        <NamedIndividual IRI="#Wodka_Ziemniaczana_Premium"/>
+        <NamedIndividual IRI="#Polska"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bazujeNa"/>
+        <NamedIndividual IRI="#Wodka_Zytnia_Premium"/>
+        <NamedIndividual IRI="#Zyto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pochodziZ"/>
+        <NamedIndividual IRI="#Wodka_Zytnia_Premium"/>
+        <NamedIndividual IRI="#Polska"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bazujeNa"/>
+        <NamedIndividual IRI="#Zytnia_Klasyczna"/>
+        <NamedIndividual IRI="#Zyto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pochodziZ"/>
+        <NamedIndividual IRI="#Zytnia_Klasyczna"/>
+        <NamedIndividual IRI="#Polska"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#produkuje"/>
+        <NamedIndividual IRI="#Zywiec"/>
+        <NamedIndividual IRI="#Zywiec_Jasne"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#maProducenta"/>
+        <NamedIndividual IRI="#Zywiec_Jasne"/>
+        <NamedIndividual IRI="#Zywiec"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pochodziZ"/>
+        <NamedIndividual IRI="#Zywiec_Jasne"/>
+        <NamedIndividual IRI="#Polska"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bazujeNa"/>
+        <NamedIndividual IRI="#Wodka_Kukurydziana_(Miod)"/>
+        <NamedIndividual IRI="#Kukurydza"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pochodziZ"/>
+        <NamedIndividual IRI="#Wodka_Kukurydziana_(Miod)"/>
+        <NamedIndividual IRI="#Polska"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bazujeNa"/>
+        <NamedIndividual IRI="#Wodka_Kukurydzianka_(Gladka)"/>
+        <NamedIndividual IRI="#Kukurydza"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pochodziZ"/>
+        <NamedIndividual IRI="#Wodka_Kukurydzianka_(Gladka)"/>
+        <NamedIndividual IRI="#Polska"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bazujeNa"/>
+        <NamedIndividual IRI="#Wodka_Pszenca_Smakowa_(Cytryna)"/>
+        <NamedIndividual IRI="#Pszenica"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pochodziZ"/>
+        <NamedIndividual IRI="#Wodka_Pszenca_Smakowa_(Cytryna)"/>
+        <NamedIndividual IRI="#Polska"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bazujeNa"/>
+        <NamedIndividual IRI="#Wodka_Pszeniczna_(Premium)"/>
+        <NamedIndividual IRI="#Pszenica"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pochodziZ"/>
+        <NamedIndividual IRI="#Wodka_Pszeniczna_(Premium)"/>
+        <NamedIndividual IRI="#Polska"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bazujeNa"/>
+        <NamedIndividual IRI="#Wodka_Pszeniczna_(Wanilia)"/>
+        <NamedIndividual IRI="#Pszenica"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pochodziZ"/>
+        <NamedIndividual IRI="#Wodka_Pszeniczna_(Wanilia)"/>
+        <NamedIndividual IRI="#Polska"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bazujeNa"/>
+        <NamedIndividual IRI="#Wodka_Zbozowa_(Pieprz)"/>
+        <NamedIndividual IRI="#Jeczmien"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pochodziZ"/>
+        <NamedIndividual IRI="#Wodka_Zbozowa_(Pieprz)"/>
+        <NamedIndividual IRI="#Polska"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bazujeNa"/>
+        <NamedIndividual IRI="#Wodka_Ziemniaczana_(Kremowa)"/>
+        <NamedIndividual IRI="#Ziemniak"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pochodziZ"/>
+        <NamedIndividual IRI="#Wodka_Ziemniaczana_(Kremowa)"/>
+        <NamedIndividual IRI="#Polska"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bazujeNa"/>
+        <NamedIndividual IRI="#Wodka_Zytnia_(Chrzan)"/>
+        <NamedIndividual IRI="#Zyto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pochodziZ"/>
+        <NamedIndividual IRI="#Wodka_Zytnia_(Chrzan)"/>
+        <NamedIndividual IRI="#Polska"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bazujeNa"/>
+        <NamedIndividual IRI="#Wodka_Zytnia_(Klasyk)"/>
+        <NamedIndividual IRI="#Zyto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pochodziZ"/>
+        <NamedIndividual IRI="#Wodka_Zytnia_(Klasyk)"/>
+        <NamedIndividual IRI="#Polska"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Amaretto"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Amaretto"/>
+        <Literal>40 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Amaretto"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">28</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Aperitivo_Bitter"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Aperitivo_Bitter"/>
+        <Literal>60 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Aperitivo_Bitter"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Brandy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">22</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Brandy"/>
+        <Literal>40 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Brandy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">36</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Chardonnay_Butelka"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">92</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Chardonnay_Butelka"/>
+        <Literal>750 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Chardonnay_Butelka"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#wyprodukowaneW"/>
+        <NamedIndividual IRI="#Chardonnay_Butelka"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2020</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Chardonnay_Kieliszek"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">21</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Chardonnay_Kieliszek"/>
+        <Literal>150 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Chardonnay_Kieliszek"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#wyprodukowaneW"/>
+        <NamedIndividual IRI="#Chardonnay_Kieliszek"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2021</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Chianti_Butelka"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">98</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Chianti_Butelka"/>
+        <Literal>750 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Chianti_Butelka"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#wyprodukowaneW"/>
+        <NamedIndividual IRI="#Chianti_Butelka"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2021</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Chianti_Kieliszek"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Chianti_Kieliszek"/>
+        <Literal>150 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Chianti_Kieliszek"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#wyprodukowaneW"/>
+        <NamedIndividual IRI="#Chianti_Kieliszek"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2021</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Cognac_VS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">28</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Cognac_VS"/>
+        <Literal>40 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Cognac_VS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Erdinger_Weissbier"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Erdinger_Weissbier"/>
+        <Literal>500 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Erdinger_Weissbier"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Gin_Citrus"/>
+        <Literal>40 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Gin_Citrus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">21</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Gin_Citrus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">37.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Gin_London_Dry"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">22</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Gin_London_Dry"/>
+        <Literal>40 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Gin_London_Dry"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">40.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Guinness"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Guinness"/>
+        <Literal>440 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Guinness"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Heineken_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Heineken_"/>
+        <Literal>500 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Heineken_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Ksiazece_IPA"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Ksiazece_IPA"/>
+        <Literal>500 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Ksiazece_IPA"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Limoncello"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Limoncello"/>
+        <Literal>40 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Limoncello"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Pilsner_Urquell"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Pilsner_Urquell"/>
+        <Literal>500 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Pilsner_Urquell"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Prosecco_DOC_Butelka"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">85</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Prosecco_DOC_Butelka"/>
+        <Literal>750 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Prosecco_DOC_Butelka"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">11</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#wyprodukowaneW"/>
+        <NamedIndividual IRI="#Prosecco_DOC_Butelka"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2023</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Prosecco_DOC_Kieliszek"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Prosecco_DOC_Kieliszek"/>
+        <Literal>150  ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Prosecco_DOC_Kieliszek"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">11</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#wyprodukowaneW"/>
+        <NamedIndividual IRI="#Prosecco_DOC_Kieliszek"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2023</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Rose_Provence_Butelka"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">94</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Rose_Provence_Butelka"/>
+        <Literal>750 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Rose_Provence_Butelka"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#wyprodukowaneW"/>
+        <NamedIndividual IRI="#Rose_Provence_Butelka"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2023</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Rose_Provence_Kieliszek"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">22</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Rose_Provence_Kieliszek"/>
+        <Literal>150 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Rose_Provence_Kieliszek"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#wyprodukowaneW"/>
+        <NamedIndividual IRI="#Rose_Provence_Kieliszek"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2023</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Rum_Dark"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">22</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Rum_Dark"/>
+        <Literal>40 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Rum_Dark"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Rum_Spiced"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Rum_Spiced"/>
+        <Literal>40 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Rum_Spiced"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Syrah_Butelka"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">99</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Syrah_Butelka"/>
+        <Literal>750 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Syrah_Butelka"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#wyprodukowaneW"/>
+        <NamedIndividual IRI="#Syrah_Butelka"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2020</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Syrah_Kieliszek"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Syrah_Kieliszek"/>
+        <Literal>150 ML</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Syrah_Kieliszek"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#wyprodukowaneW"/>
+        <NamedIndividual IRI="#Syrah_Kieliszek"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2020</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Tequila_Blanco"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">24</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Tequila_Blanco"/>
+        <Literal>40 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Tequila_Blanco"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">38</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#USA"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#USA"/>
+        <Literal>40 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#USA"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Vermouth_Rosso"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Vermouth_Rosso"/>
+        <Literal>100 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Vermouth_Rosso"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Whisky_Bourbon"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">24</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Whisky_Bourbon"/>
+        <Literal>40 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Whisky_Bourbon"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Whisky_Irish"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Whisky_Irish"/>
+        <Literal>40 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Whisky_Irish"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Whisky_Single_Malt"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">26</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Whisky_Single_Malt"/>
+        <Literal>40 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Whisky_Single_Malt"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Wodka_Kukurydziana"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Wodka_Kukurydziana"/>
+        <Literal>40 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Wodka_Kukurydziana"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Wodka_Pszeniczna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Wodka_Pszeniczna"/>
+        <Literal>40 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Wodka_Pszeniczna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Wodka_Zbozowa"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Wodka_Zbozowa"/>
+        <Literal>40 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Wodka_Zbozowa"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Wodka_Ziemniaczana"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Wodka_Ziemniaczana"/>
+        <Literal>40 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Wodka_Ziemniaczana"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Wodka_Ziemniaczana_Premium"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">16</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Wodka_Ziemniaczana_Premium"/>
+        <Literal>40 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Wodka_Ziemniaczana_Premium"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Wodka_Zytnia_Premium"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Wodka_Zytnia_Premium"/>
+        <Literal>40 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Wodka_Zytnia_Premium"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Zytnia_Klasyczna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Zytnia_Klasyczna"/>
+        <Literal>40 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Zytnia_Klasyczna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Zywiec_Jasne"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Zywiec_Jasne"/>
+        <Literal>500 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Zywiec_Jasne"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Wodka_Kukurydziana_(Miod)"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Wodka_Kukurydziana_(Miod)"/>
+        <Literal>40 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Wodka_Kukurydziana_(Miod)"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">32</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Wodka_Kukurydzianka_(Gladka)"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Wodka_Kukurydzianka_(Gladka)"/>
+        <Literal>40 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Wodka_Kukurydzianka_(Gladka)"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Wodka_Pszenca_Smakowa_(Cytryna)"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Wodka_Pszenca_Smakowa_(Cytryna)"/>
+        <Literal>40 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Wodka_Pszenca_Smakowa_(Cytryna)"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Wodka_Pszeniczna_(Premium)"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Wodka_Pszeniczna_(Premium)"/>
+        <Literal>40 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Wodka_Pszeniczna_(Premium)"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Wodka_Pszeniczna_(Wanilia)"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Wodka_Pszeniczna_(Wanilia)"/>
+        <Literal>40 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Wodka_Pszeniczna_(Wanilia)"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Wodka_Zbozowa_(Pieprz)"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Wodka_Zbozowa_(Pieprz)"/>
+        <Literal>40 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Wodka_Zbozowa_(Pieprz)"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">38</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Wodka_Ziemniaczana_(Kremowa)"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Wodka_Ziemniaczana_(Kremowa)"/>
+        <Literal>40 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Wodka_Ziemniaczana_(Kremowa)"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Wodka_Zytnia_(Chrzan)"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Wodka_Zytnia_(Chrzan)"/>
+        <Literal>40 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Wodka_Zytnia_(Chrzan)"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">38</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maCene"/>
+        <NamedIndividual IRI="#Wodka_Zytnia_(Klasyk)"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maPojemnosc"/>
+        <NamedIndividual IRI="#Wodka_Zytnia_(Klasyk)"/>
+        <Literal>40 ml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maProcenty"/>
+        <NamedIndividual IRI="#Wodka_Zytnia_(Klasyk)"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">40</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#maProducenta"/>
+        <ObjectProperty IRI="#produkuje"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#bazujeNa"/>
+        <Class IRI="#Produkt"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#maProducenta"/>
+        <Class IRI="#Produkt"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#produkuje"/>
+        <Class IRI="#Producent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#bazujeNa"/>
+        <Class IRI="#Baza"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#maProducenta"/>
+        <Class IRI="#Producent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#produkuje"/>
+        <Class IRI="#Produkt"/>
+    </ObjectPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#maPojemnosc"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#wyprodukowaneW"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Baza</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#bazujeNa</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
